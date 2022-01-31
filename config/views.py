@@ -1,4 +1,4 @@
-from django.views.generic.base import TempleteView
+from django.views.generic import TemplateView
 
-class Home(TempleteView):
+class Home(TemplateView):
    template_name = 'home.html'
